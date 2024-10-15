@@ -22,4 +22,4 @@ In this tutorial, we demonstrate how to create a syntax-highlighted code box usi
 With this setup, you can style the box using the `styles.css` file.
 
 ### Video Tutorial
-Check out the [YouTube video](https://youtube.com/yourvideo) for more details.
+Check out the [YouTube video](https://youtube.com/playlist?list=PLsi_twzeQSKRxJ7AkX_FpbalYD0bjsxZ0) for more details.
