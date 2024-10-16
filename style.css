@@ -56,10 +56,12 @@ main {
 }
 
 section {
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
     margin-bottom: 20px;
 }
 
@@ -72,7 +74,7 @@ h1, h2 {
 .project-card {
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     transition: transform 0.3s ease;
     cursor: pointer;
@@ -99,7 +101,8 @@ form {
     flex-direction: column;
 }
 
-input, textarea {
+input,
+textarea {
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ddd;
@@ -131,29 +134,42 @@ footer {
 .popup-container {
     display: none;
     position: fixed;
-    top: 0;
-    left: 0;
+    inset: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 2000;
 }
 
-.popup-content {
+.popup-fix {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background-color: #fff;
-    margin: 5% auto;
-    padding: 20px;
-    width: 90%;
+    margin: 0px;
+    padding: 10px 20px;
+    overflow: hidden;
     max-width: 1000px;
-    height: 80%;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 0 -4px -8px rgba(0, 0, 0, 0.2);
 }
 
-.close-popup {
+.popup-header, {
+    display: flex;
+    position: relative;
+    border-bottom: 0.1rem solid #DCDFF1;
+}
+
+.popup-header .popup-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.popup-header .close-popup {
     position: absolute;
-    top: 10px;
+    top: 0px;
     right: 20px;
     font-size: 28px;
     font-weight: bold;
@@ -161,11 +177,16 @@ footer {
     cursor: pointer;
 }
 
+.popup-content {
+    display: block;
+    height: 100%;
+}
+
 #project-iframe {
     width: 100%;
     height: calc(100% - 40px);
     border: none;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -182,9 +203,9 @@ footer {
         margin-right: 20px;
     }
 
-    .popup-content {
-        width: 95%;
-        height: 90%;
-        margin: 5% auto;
+    .popup-fix {
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
     }
 }

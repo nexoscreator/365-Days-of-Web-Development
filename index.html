@@ -1,50 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>365 Days of Web Development</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
         <nav>
             <div class="logo">365 Days of Web Dev</div>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/resources">Resources</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#extra">More</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="home">
-            <h1>Welcome to My 365 Days of Web Development Journey</h1>
+            <h1>Welcome to the 365 Days of Web Development Journey</h1>
             <p>Join me as I create a new web project every day for a year!</p>
         </section>
 
-        <section id="about">
-            <h2>About This Challenge</h2>
-            <p>I've committed to building a new web development project every day for 365 days. This challenge is designed to improve my skills, explore new technologies, and create a diverse portfolio of web applications.</p>
-        </section>
-
         <section id="projects">
-            <h2>My Projects</h2>
+            <h2>Our Projects</h2>
             <div id="project-grid">
                 <!-- Project cards will be dynamically inserted here by JavaScript -->
             </div>
         </section>
 
-        <section id="contact">
-            <h2>Get in Touch</h2>
-            <form id="contact-form">
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+        <section id="Resources">
+            <h2>About This Challenge</h2>
+            <p>I've committed to building a new web development project every day for 365 days. This challenge is designed to improve my skills, explore new technologies, and create a diverse portfolio of web applications.</p>
+        </section>
+
+        <section id="extra">
+            <h2>More Coming Soon! </h2>
         </section>
     </main>
 
@@ -53,14 +49,21 @@
     </footer>
 
     <!-- Popup container -->
-    <div id="popup-container" class="popup-container">
-        <div class="popup-content">
-            <span class="close-popup">&times;</span>
-            <h2 id="popup-title"></h2>
-            <iframe id="project-iframe" src="" frameborder="0"></iframe>
+    <aside id="popup-container" class="popup-container">
+        <div class="popup-fix">
+            <div class="popup-header">
+                <span class="close-popup">&times;</span>
+                <h2 id="popup-title"></h2>
+            </div>
+            <div class="popup-content">
+                <iframe id="project-iframe" src="" frameborder="0"></iframe>
+            </div>
+            <div class="popup-footer"></div>
+
         </div>
-    </div>
+    </aside>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
