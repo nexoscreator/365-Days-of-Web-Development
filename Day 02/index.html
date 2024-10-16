@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Day 02: How to Create a Toast Notification</title>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Toast Notification Exam -->
+    <div id="toastContainer" class="toast-container" aria-live="polite" role="alert"></div>
+
+    <p>Success Notification Example...</p>
+    <button onclick="showToast('Your download started', 'success')">Click</button>
+
+    <p>Info Notification Example...</p>
+    <button onclick="showToast('Code copied to clipboard!', 'info')">Click</button>
+
+    <p>Danger Notification Example...</p>
+    <button onclick="showToast('There was an error processing your request', 'danger')">Click</button>
+
+    <p>Warning Notification Example...</p>
+    <button onclick="showToast('Your password will expire soon', 'warning')">Click</button>
+
+    <!-- Project -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
