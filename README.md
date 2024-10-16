@@ -12,8 +12,8 @@ Welcome to my **365 Days of Web Development** challenge! In this repository, I'm
 
 | Day | Project Name | Description | Live Demo |
 |-----|--------------|-------------|-----------|
-| 001 | [Project Name](./projects/day-001-syntax-code-box) | How to Create a Syntax Code Box | [Demo](https://example.com) |
-| 002 | [Project Name](./projects/day-002-toast-notification) | Creating a Toast Notification | [Demo](https://example.com) |
+| 001 | [Syntax Code Box](./projects/day-001-syntax-code-box) | How to Create a Syntax Code Box | [Demo](https://example.com) |
+| 002 | [Toast Notification](./projects/day-002-toast-notification) | Creating a Toast Notification | [Demo](https://example.com) |
 | ... | ... | ... | ... |
 
 
