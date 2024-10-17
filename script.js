@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Sample project data (you'll need to update this as you complete projects)
     const projects = [
-        { id: 1, title: "Responsive Navbar", description: "A mobile-friendly navigation bar", link: "./projects/day-001-syntax-code-box/index.html" },
-        { id: 2, title: "To-Do List App", description: "A simple to-do list application", link: "./projects/day-002-toast-notification/index.html" },
+        { id: 1, title: "Syntax Code Box", description: "A mobile-friendly navigation bar", link: "./projects/day-001-syntax-code-box/index.html" },
+        { id: 2, title: "Toast Notification", description: "A simple to-do list application", link: "./projects/day-002-toast-notification/index.html" },
         // Add more projects here as you complete them
     ];
 
@@ -22,24 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectGrid = document.getElementById('project-grid');
     projects.forEach(project => {
         projectGrid.appendChild(createProjectCard(project));
-    });
-
-    // Handle form submission
-    const contactForm = document.getElementById('contact-form');
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
-
-        // Here you would typically send this data to a server
-        console.log('Form submitted:', { name, email, message });
-
-        // Clear the form
-        contactForm.reset();
-
-        // Show a success message (you might want to improve this)
-        alert('Thank you for your message! We\'ll get back to you soon.');
     });
 
     // Smooth scrolling for navigation
