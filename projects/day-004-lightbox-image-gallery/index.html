@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 004: Lightbox Image Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="gallery">
+        <img src="https://picsum.photos/id/1015/300/200" alt="Image 1" class="gallery-img">
+        <img src="https://picsum.photos/id/1016/300/200" alt="Image 2" class="gallery-img">
+        <img src="https://picsum.photos/id/1018/300/200" alt="Image 3" class="gallery-img">
+        <img src="https://picsum.photos/id/1019/300/200" alt="Image 4" class="gallery-img">
+        <img src="https://picsum.photos/id/1020/300/200" alt="Image 5" class="gallery-img">
+        <img src="https://picsum.photos/id/1021/300/200" alt="Image 6" class="gallery-img">
+        <img src="https://picsum.photos/id/1022/300/200" alt="Image 7" class="gallery-img">
+        <img src="https://picsum.photos/id/1023/300/200" alt="Image 8" class="gallery-img">
+        <img src="https://picsum.photos/id/1024/300/200" alt="Image 9" class="gallery-img">
+        <img src="https://picsum.photos/id/1025/300/200" alt="Image 10" class="gallery-img">
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="caption" id="caption"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

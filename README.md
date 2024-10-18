@@ -14,6 +14,8 @@ Welcome to my **365 Days of Web Development** challenge! In this repository, I'm
 |-----|--------------|-------------|-----------|
 | 001 | [Syntax Code Box](./projects/day-001-syntax-code-box) | How to Create a Syntax Code Box | [Demo](https://example.com) |
 | 002 | [Toast Notification](./projects/day-002-toast-notification) | Creating a Toast Notification | [Demo](https://example.com) |
+| 003 | [Lazy load images](./projects/day-003-lazy-load-images) | Creating a Toast Notification | [Demo](https://example.com) |
+| 004 | [Lightbox Images Gallery](./projects/day-004-lightbox-image-gallery) | Creating a Toast Notification | [Demo](https://example.com) |
 | ... | ... | ... | ... |
 
 

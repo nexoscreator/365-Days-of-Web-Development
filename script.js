@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const projects = [
         { id: 1, title: "Syntax Code Box", description: "A mobile-friendly navigation bar", link: "./projects/day-001-syntax-code-box/index.html" },
         { id: 2, title: "Toast Notification", description: "A simple to-do list application", link: "./projects/day-002-toast-notification/index.html" },
+        { id: 3, title: "Lazy Load Images", description: "Lazy loading of images as they enter the viewport", link: "./projects/day-003-lazy-load-images" },
+        { id: 4, title: "Lightbox Images", description: "a responsive lightbox image gallery.", link: "./projects/day-004-lightbox-image-gallery" },
         // Add more projects here as you complete them
     ];
 
